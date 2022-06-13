@@ -3,7 +3,7 @@
 In this project, you'll build a tool that will take an arbitrarily long URL and
 will shorten it for the user. Subsequent users can then give the short URL back
 to your tool and be redirected to the original URL. You'll also track
-clickthroughs since these can be really helpful for business analytics.
+click-throughs since these can be really helpful for business analytics.
 
 URL-shortening apps like this are useful for embedding long URLs in
 space-constrained messages like tweets. You can play around with [this
@@ -38,6 +38,10 @@ Go ahead and create a new Rails project...
 ```sh
 rails new URLShortener -G -T --database=postgresql --minimal
 ```
+
+You can grab __.gitattributes__ and __.gitignore__ files from the starter repo
+at the `Download Project` button below. Copy them into the root directory of
+your project.
 
 In your __Gemfile__, change the `debug` gem to `byebug`. Then add `annotate`,
 `pry-rails`, `better_errors`, and `binding_of_caller` to the `:development`
