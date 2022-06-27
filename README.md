@@ -43,9 +43,8 @@ You can grab __.gitattributes__ and __.gitignore__ files from the starter repo
 at the `Download Project` button below. Copy them into the root directory of
 your project.
 
-In your __Gemfile__, change the `debug` gem to `byebug`. Then add `annotate`,
-`pry-rails`, `better_errors`, and `binding_of_caller` to the `:development`
-section and `bundle install` again.
+In your __Gemfile__, change the `debug` gem to `byebug`. Then add `annotate` and
+`pry-rails` to the `:development` section and `bundle install` again.
 
 Create the database with the following command...
 
