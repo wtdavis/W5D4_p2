@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+user1 = User.create(email: "google@google.com")
+user2 = User.create(email: "alvin@aa.io")
+# user3 = User.create(email: "alvin@aa.io") => silent error at constraint level
